@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>小老板精灵用户协议</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --fg: #111827;
+        --muted: #6b7280;
+        --card: #f9fafb;
+        --border: #e5e7eb;
+        --link: #2563eb;
+        --maxw: 860px;
+        --radius: 10px;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b1220;
+          --fg: #e5e7eb;
+          --muted: #94a3b8;
+          --card: #0f172a;
+          --border: #1f2937;
+          --link: #60a5fa;
+        }
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+          "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol", sans-serif;
+      }
+      .wrap {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: 28px 16px 64px;
+      }
+      header {
+        margin: 10px 0 18px;
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 1.25;
+        margin: 0 0 10px;
+        letter-spacing: 0;
+      }
+      .meta {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .card {
+        border: 1px solid var(--border);
+        background: var(--card);
+        border-radius: var(--radius);
+        padding: 14px 14px;
+      }
+      .toc {
+        margin: 16px 0 20px;
+      }
+      .toc a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      .toc a:hover {
+        text-decoration: underline;
+      }
+      main h2 {
+        margin: 26px 0 10px;
+        font-size: 18px;
+        line-height: 1.35;
+      }
+      main p {
+        margin: 10px 0;
+      }
+      main ul {
+        margin: 10px 0 10px 18px;
+        padding: 0;
+      }
+      main li {
+        margin: 6px 0;
+      }
+      a {
+        color: var(--link);
+      }
+      .notice {
+        font-size: 14px;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+      .footer {
+        margin-top: 28px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .btns {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+      .btn {
+        border: 1px solid var(--border);
+        background: transparent;
+        color: var(--fg);
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 13px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        border-color: color-mix(in srgb, var(--border), var(--fg) 18%);
+      }
+      @media print {
+        .btns {
+          display: none;
+        }
+        .card {
+          border: 1px solid #ddd;
+          background: #fff;
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>小老板精灵用户协议</h1>
+        <div class="meta">
+          <div>更新日期：2026-05-03</div>
+          <div>生效日期：2026-05-03</div>
+        </div>
+        <div class="btns">
+          <button class="btn" type="button" onclick="window.print()">打印/保存为PDF</button>
+          <button class="btn" type="button" onclick="location.hash = '#contact'">跳到联系方式</button>
+        </div>
+      </header>
+
+      <section class="card">
+        <p>
+          欢迎您使用《小老板精灵》（以下简称“本应用”）。本用户协议由您与本应用的开发者就本应用的使用所订立。请您在使用本应用前仔细阅读并充分理解本协议内容；一旦您开始使用本应用，即表示您已阅读并同意本协议的全部内容。
+        </p>
+        <p class="notice">
+          提示：本应用定位为经营管理工具，主要功能包括客户、订单、跟进、收款的一站式记录与管理。实际功能以您安装的版本为准。
+        </p>
+      </section>
+
+      <nav class="toc card" aria-label="目录">
+        <strong>目录</strong>
+        <ul>
+          <li><a href="#scope">1. 协议范围与定义</a></li>
+          <li><a href="#service">2. 服务内容</a></li>
+          <li><a href="#rules">3. 使用规则</a></li>
+          <li><a href="#data">4. 数据与内容规范</a></li>
+          <li><a href="#ip">5. 知识产权</a></li>
+          <li><a href="#privacy">6. 隐私与个人信息保护</a></li>
+          <li><a href="#fee">7. 费用与订阅（如适用）</a></li>
+          <li><a href="#disclaimer">8. 免责声明</a></li>
+          <li><a href="#change">9. 协议变更与终止</a></li>
+          <li><a href="#law">10. 法律适用与争议解决</a></li>
+          <li><a href="#contact">11. 联系我们</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2 id="scope">1. 协议范围与定义</h2>
+        <p>1.1 本协议适用于您下载、安装及使用本应用的全部行为。</p>
+        <p>
+          1.2 “经营数据/业务数据”指您在本应用中录入、导入、生成的客户、订单、跟进、收款等相关信息以及由此形成的统计汇总等内容。
+        </p>
+
+        <h2 id="service">2. 服务内容</h2>
+        <p>2.1 本应用为您提供经营管理工具类功能，包括但不限于：</p>
+        <ul>
+          <li>客户信息管理：新增、编辑、查询、备注等；</li>
+          <li>订单管理：记录订单金额、商品/服务、状态、备注等；</li>
+          <li>跟进管理：记录沟通内容、跟进事项、提醒等；</li>
+          <li>收款/对账记录：记录收款信息并进行汇总统计等；</li>
+          <li>数据统计与展示：如看板、列表、汇总等（以实际版本为准）。</li>
+        </ul>
+        <p>
+          2.2 我们有权基于产品运营需要对功能进行调整、升级或迭代，并以适当方式提示或公告。
+        </p>
+
+        <h2 id="rules">3. 使用规则</h2>
+        <p>3.1 您应遵守法律法规和本协议的约定，合理、合法使用本应用。</p>
+        <p>
+          3.2 您不得以任何方式干扰、破坏本应用的正常运行，不得对本应用进行反向工程、反编译、破解、篡改或攻击等行为。
+        </p>
+
+        <h2 id="data">4. 数据与内容规范</h2>
+        <p>
+          4.1 您应对在本应用中录入、导入、生成的经营数据承担全部责任，并保证相关内容合法、真实、准确，不侵犯任何第三方合法权益（包括但不限于隐私权、名誉权、知识产权等）。
+        </p>
+        <p>
+          4.2 您理解并同意：本应用的统计结果、提示信息仅供参考，您应结合实际经营情况自行判断并承担相应后果。
+        </p>
+        <p>
+          4.3 建议您定期对重要经营数据进行备份（例如导出备份文件等，具体以应用支持能力为准）。
+        </p>
+
+        <h2 id="ip">5. 知识产权</h2>
+        <p>
+          5.1 本应用及其相关内容（包括但不限于文字、图形、界面设计、程序代码等）的知识产权归我们或相关权利人所有。
+        </p>
+        <p>
+          5.2 未经我们书面许可，您不得以任何形式复制、传播、出租、出售、改编或用于其他商业用途。
+        </p>
+
+        <h2 id="privacy">6. 隐私与个人信息保护</h2>
+        <p>
+          6.1 我们将依据本应用发布的《隐私声明/隐私政策》处理您的个人信息与相关数据。《隐私声明/隐私政策》是本协议的重要组成部分，与本协议具有同等法律效力。
+        </p>
+        <p>
+          6.2 在您使用本应用前，请您同时阅读并同意《隐私声明/隐私政策》。
+        </p>
+
+        <h2 id="fee">7. 费用与订阅（如适用）</h2>
+        <p>
+          7.1 本应用可能提供免费功能与增值服务（如订阅/付费功能）。具体价格、权益与规则以应用内展示为准。
+        </p>
+
+        <h2 id="disclaimer">8. 免责声明</h2>
+        <p>
+          8.1 因不可抗力、系统故障、通信线路故障、第三方原因等导致的服务中断、数据异常或损失，我们将在合理范围内协助处理，但不承担由此产生的全部责任，法律法规另有规定的除外。
+        </p>
+        <p>
+          8.2 您应自行做好经营数据的备份与保管。因您未及时备份造成的数据丢失，我们不承担责任。
+        </p>
+
+        <h2 id="change">9. 协议变更与终止</h2>
+        <p>
+          9.1 我们有权根据需要对本协议进行更新。更新后的协议将以适当方式提示，更新内容自公布或提示之日起生效。
+        </p>
+        <p>
+          9.2 若您不同意更新内容，您应停止使用本应用；您继续使用则视为接受更新后的协议。
+        </p>
+
+        <h2 id="law">10. 法律适用与争议解决</h2>
+        <p>10.1 本协议的订立、执行与解释适用中华人民共和国法律法规。</p>
+        <p>
+          10.2 因本协议引起的任何争议，双方应友好协商解决；协商不成的，任一方可向有管辖权的人民法院提起诉讼。
+        </p>
+
+        <h2 id="contact">11. 联系我们</h2>
+        <p>如您对本协议有任何疑问、意见或建议，可通过以下方式联系我们：</p>
+        <ul>
+          <li>邮箱：<strong>your@email.com</strong>（请替换为实际联系方式）</li>
+          <li>开发者/运营方：<strong>丁锐</strong>（如需可修改为主体名称）</li>
+        </ul>
+
+        <div class="footer">
+          <p>© 2026 小老板精灵</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+
